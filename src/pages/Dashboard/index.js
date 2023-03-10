@@ -36,7 +36,7 @@ export default function Dashboard() {
           updateState(snapshot);
         })
         .catch((err) => {
-          console.log("Deu algum erro: ", err);
+          console.log("Deu algum errrro: ", err);
           setLoadingMore(false);
         });
       setLoading(false);
